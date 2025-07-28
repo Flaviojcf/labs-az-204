@@ -2,7 +2,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "azure-function-local-dotnet", "azure-function-local-dotnet\azure-function-local-dotnet.csproj", "{FABB8153-D46C-3A2C-9FED-C035AB760F1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab02-processing-logic-azure-function", "lab02-processing-logic-azure-function\lab02-processing-logic-azure-function.csproj", "{38A7B036-6823-2FC4-1CE2-A7D647BAEAD4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab03-blob-storage", "lab03-blob-storage", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobManager", "lab03-blob-storage\BlobManager\BlobManager.csproj", "{72E401E8-03B4-4790-9E89-98FD8DD35854}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +14,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FABB8153-D46C-3A2C-9FED-C035AB760F1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FABB8153-D46C-3A2C-9FED-C035AB760F1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FABB8153-D46C-3A2C-9FED-C035AB760F1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FABB8153-D46C-3A2C-9FED-C035AB760F1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38A7B036-6823-2FC4-1CE2-A7D647BAEAD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38A7B036-6823-2FC4-1CE2-A7D647BAEAD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38A7B036-6823-2FC4-1CE2-A7D647BAEAD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38A7B036-6823-2FC4-1CE2-A7D647BAEAD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E401E8-03B4-4790-9E89-98FD8DD35854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E401E8-03B4-4790-9E89-98FD8DD35854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E401E8-03B4-4790-9E89-98FD8DD35854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E401E8-03B4-4790-9E89-98FD8DD35854}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72E401E8-03B4-4790-9E89-98FD8DD35854} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E749A47C-2ED4-40D6-9B66-6C47C75739B5}
