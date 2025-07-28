@@ -8,6 +8,16 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab03-blob-storage", "lab03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlobManager", "lab03-blob-storage\BlobManager\BlobManager.csproj", "{72E401E8-03B4-4790-9E89-98FD8DD35854}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lab04-cosmosDb", "lab04-cosmosDb", "{0B735322-2A38-42C9-8938-E5F9D887677B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Upload", "lab04-cosmosDb\AdventureWorks.Upload\AdventureWorks.Upload.csproj", "{46C5407F-ADE1-25BC-5688-8453CF365076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Web", "lab04-cosmosDb\AdventureWorks.Web\AdventureWorks.Web.csproj", "{C791B055-2C42-88A0-F11C-DD39B3C94ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Context", "lab04-cosmosDb\AdventureWorks.Context\AdventureWorks.Context.csproj", "{C8F088C5-1E09-B7EE-4094-0CBCAADF5A61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdventureWorks.Models", "lab04-cosmosDb\AdventureWorks.Models\AdventureWorks.Models.csproj", "{51F8E207-7650-F9E9-CFBD-425077AFE710}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,12 +32,32 @@ Global
 		{72E401E8-03B4-4790-9E89-98FD8DD35854}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72E401E8-03B4-4790-9E89-98FD8DD35854}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72E401E8-03B4-4790-9E89-98FD8DD35854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C5407F-ADE1-25BC-5688-8453CF365076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C5407F-ADE1-25BC-5688-8453CF365076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C5407F-ADE1-25BC-5688-8453CF365076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C5407F-ADE1-25BC-5688-8453CF365076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C791B055-2C42-88A0-F11C-DD39B3C94ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C791B055-2C42-88A0-F11C-DD39B3C94ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C791B055-2C42-88A0-F11C-DD39B3C94ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C791B055-2C42-88A0-F11C-DD39B3C94ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8F088C5-1E09-B7EE-4094-0CBCAADF5A61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8F088C5-1E09-B7EE-4094-0CBCAADF5A61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8F088C5-1E09-B7EE-4094-0CBCAADF5A61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8F088C5-1E09-B7EE-4094-0CBCAADF5A61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51F8E207-7650-F9E9-CFBD-425077AFE710}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51F8E207-7650-F9E9-CFBD-425077AFE710}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51F8E207-7650-F9E9-CFBD-425077AFE710}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51F8E207-7650-F9E9-CFBD-425077AFE710}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{72E401E8-03B4-4790-9E89-98FD8DD35854} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{46C5407F-ADE1-25BC-5688-8453CF365076} = {0B735322-2A38-42C9-8938-E5F9D887677B}
+		{C791B055-2C42-88A0-F11C-DD39B3C94ED7} = {0B735322-2A38-42C9-8938-E5F9D887677B}
+		{C8F088C5-1E09-B7EE-4094-0CBCAADF5A61} = {0B735322-2A38-42C9-8938-E5F9D887677B}
+		{51F8E207-7650-F9E9-CFBD-425077AFE710} = {0B735322-2A38-42C9-8938-E5F9D887677B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E749A47C-2ED4-40D6-9B66-6C47C75739B5}
